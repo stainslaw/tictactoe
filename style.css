@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --white: #def2f1;
+    --main-blue: #3aafa9;
+}
+
+body {
+    background-color: var(--main-blue);
+}
+
+.header {
+    padding: 3.9vh;
+    background-color: var(--white);
+}
+
+.tictactoe {
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.game {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 60px;
+}
+
+.board {
+    height: 65vh;
+    width: 65vh;
+    margin: 6vh auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid var(--white);
+}
+
+.top-left,
+.top-middle,
+.top-right,
+.middle-left,
+.middle-middle,
+.middle-right,
+.bottom-left,
+.bottom-middle,
+.bottom-right {
+    border: 1px solid var(--white);
+}
+

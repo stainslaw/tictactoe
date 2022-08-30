@@ -66,8 +66,8 @@ window.addEventListener('DOMContentLoaded', () => {
             case TIE: 
                 announcer.innerHTML = "It's a tie!";
         }
-        announcer.classList.remove('hide');
         document.getElementById("player-text").style.display = "none";
+        announcer.classList.remove('hide');
     };
 
     const isValidAction = (tile) => {

@@ -10,36 +10,42 @@
 </head>
 <body>
 
-    <header class="header">
-            <p class="tictactoe">Tic Tac Toe</p>
-            <p class="game">Game</p>
-    </header>
 
-    <div class="display">
-        Player <span class="display-player playerX">X</span>'s turn
-    </div>
 
-    <div class="main">
-        <div class="board">
-            <div class="top-left tile"></div>
-            <div class="top-middle tile"></div>
-            <div class="top-right tile"></div>
 
-            <div class="middle-left tile"></div>
-            <div class="middle-middle tile"></div>
-            <div class="middle-right tile"></div>
+        <section class="header">
+                <p class="tictactoe">Tic Tac Toe</p>
+                <p class="game">Game</p>
+        </section>
+    
+        <section class="display">
+            <div id="player-text">
+                Player <span class="display-player playerX">X</span>'s turn
+            </div>
+        </section>
 
-            <div class="bottom-left tile"></div>
-            <div class="bottom-middle tile"></div>
-            <div class="bottom-right tile"></div>
-        </div>
-    </div>
+        <section class="display announcer hide"></section>
+    
+        <section class="container">
+                <div class="top-left tile"></div>
+                <div class="top-middle tile"></div>
+                <div class="top-right tile"></div>
+    
+                <div class="middle-left tile"></div>
+                <div class="middle-middle tile"></div>
+                <div class="middle-right tile"></div>
+    
+                <div class="bottom-left tile"></div>
+                <div class="bottom-middle tile"></div>
+                <div class="bottom-right tile"></div>
+        </section>
+    
+    
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    
 
-    <div class="display announcer hide"></div>
-
-    <div class="controls">
-        <button id="reset">Reset</button>
-    </div>
 
     <footer class="footer">
         <p>stainslaw ©
